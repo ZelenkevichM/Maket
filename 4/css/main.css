@@ -1,0 +1,280 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	color: black;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.4em;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+a {
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	margin: 0;
+	line-height: 140%;
+}
+
+.btn {
+	display: block;
+	padding: 13px 0 15px;
+	background-color: #FF4975;
+	width: 200px;
+	border-radius: 30px;
+	text-align: center;
+	color: white;
+}
+
+/*header*/
+.header {
+	background: url('../img/Rectangle.jpg') no-repeat top center / cover;
+	color:white;
+	padding-bottom: 70px;
+}
+
+.header__logo {
+	display: block;
+	background: url('../img/logo .png');
+	width: 75px;
+	height: 42px;
+
+}
+.menu__list {
+	display: flex;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu__item a {
+	display: block;
+	padding: 32px 23px 32px 23px;
+	color: white;
+	border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+.menu__item a:hover {
+border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.nav {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+.header__title {
+	max-width: 572px;
+	font-size: 48px;
+	line-height: 1.2em;
+	padding: 142px 0 23px;
+}
+
+.header__text {
+	max-width: 340px;
+	padding-bottom: 34px;
+}
+
+.header__arroy-down {
+	display: block;
+	background: url('../img/Vector 1.png') no-repeat left bottom;
+	width: 16px;
+	height: 24px;
+	margin-top: 168px;
+	opacity: 0.4;
+}
+
+.header__arroy-down:hover {
+	opacity: 1;
+}
+
+/*section two - business*/
+
+.business {
+padding: 103px 0 97px;
+}
+
+.business__title {
+	font-size: 36px;
+	max-width: 806px;
+}
+
+.business__text {
+	max-width: 500px;
+	padding: 17px 0 78px;
+}
+
+.content__name {
+	font-size: 19px;
+	width: 268px;
+	padding-bottom: 15px;
+}
+
+.content__text {
+	font-size: 15px;
+	width: 268px;
+	padding-bottom: 15px;
+}
+
+.content__site img {
+	display: block;
+	width: 210px;
+	height: 144px;
+	border-radius: 0 10px 10px 10px;
+}
+
+.content__site {
+	width: 508px;
+	height: 144px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content__prise {
+	color: #FF4975;
+	width: 210px;
+}
+
+.content__site:first-child {
+	padding-bottom: 51px;
+}
+
+.business__content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 78px;
+}
+
+/*section three - project*/
+
+.project {
+	background-color: #F7F6F8;
+	padding: 109px 0 0;
+}
+
+.project__name {
+	font-size: 36px;
+
+}
+
+.project__text {
+	max-width: 510px;
+	padding: 17px 0 78px;
+}
+
+.project__image {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 89px;
+	border-bottom: 1px solid #B8B8B8;
+}
+
+.project__image img {
+	border-radius: 15px;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.statistics__items{
+	width: 100px;
+	height: 67px;
+	text-align: center;
+	padding: 50px 0 205px;
+}
+
+.statistics__items p {
+	font-size: 36px;
+	font-weight: 700;
+	padding-bottom: 17px;
+	/*text-align: center;*/
+}
+
+.statistics__items span {
+	font-size: 16px;
+	/*font-weight: 400;*/
+}
+
+.statistics {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: -125px; 
+}
+
+.regulations__title {
+	font-size: 19px;
+	padding: 52px 0 21px;
+}
+
+.regulations__text {
+	width: 625px;	
+	margin: 0 auto;
+}
+
+.regulations {
+	width: 801px;
+	height: 292px;
+	background-color: #F4EAFF;
+	border-radius: 15px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+.regulations__btn {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.video__title {
+	font-size: 36px; 
+	text-align: center;
+	padding: 103px 0 17px;
+}
+
+.video__text {
+	max-width: 510px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 78px;
+}
+
+.video__frame {
+	display: block;
+	margin: 0 auto;
+	width: 830px;
+	height: 426px;
+	padding-bottom: 62px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.video {
+	padding-bottom: 103px;
+}
+
+.footer {
+	background: #F7F6F8;
+	padding: 100px 0;
+}
